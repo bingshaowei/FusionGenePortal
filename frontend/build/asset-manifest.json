@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.91ede986.css",
+    "main.js": "/static/js/main.23f68c14.js",
+    "static/js/52.12d01333.chunk.js": "/static/js/52.12d01333.chunk.js",
+    "static/js/612.7438ba99.chunk.js": "/static/js/612.7438ba99.chunk.js",
+    "static/js/857.1aa6aae9.chunk.js": "/static/js/857.1aa6aae9.chunk.js",
+    "static/js/82.66bee8bc.chunk.js": "/static/js/82.66bee8bc.chunk.js",
+    "static/js/239.f7844fd2.chunk.js": "/static/js/239.f7844fd2.chunk.js",
+    "static/media/zju-campus.jpg": "/static/media/zju-campus.0683a4e09008f51c35ab.jpg",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.91ede986.css",
+    "static/js/main.23f68c14.js"
+  ]
+}

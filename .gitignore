@@ -1,0 +1,44 @@
+﻿# --- Codex 工具基础设施（不追踪）---
+.agents/
+.codex/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+
+# --- Virtual Environment ---
+venv/
+.env/
+
+# --- 原始数据文件（不追踪）---
+*.csv
+*.tsv
+
+# --- 缓存/计算数据 ---
+backend/routes/data/precomputed_deseq/
+backend/routes/data/matrix_cache/
+backend/routes/data/r_enrichment_tmp/
+backend/routes/data/r_enrichment_results/
+backend/routes/data/kegg_cache/
+backend/routes/data/precomputed_differential/
+
+# --- 数据库 ---
+backend/instance/
+
+# --- 前端依赖和缓存 ---
+frontend/node_modules/
+frontend/.cache/
+
+# --- 备份文件 ---
+*.bak*
+
+# --- R 临时输出 ---
+Rplots.pdf
+*Rplots.pdf
+
+# --- OS 文件 ---
+.DS_Store
+Thumbs.db
