@@ -28,12 +28,14 @@ backend/routes/data/precomputed_differential/
 backend/arriba/
 backend/drug_cache/
 backend/uploads/
+backend/tmp/
 
 # --- 数据库 ---
 backend/instance/
 
 # --- 构建产物 ---
 frontend/build/
+frontend/tmp/
 
 # --- 可再生的序列数据 ---
 *.fasta
