@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 可加入自定义全局样式或覆盖 */
+body {
+    background-image: url('/public/zju-campus.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+  
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+  
+@keyframes fadeInDown {
+   0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+  
+.animate-fadeInDown {
+  animation: fadeInDown 1.2s ease-out forwards;
+}
+  
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+  
+.animate-fadeInUp {
+  animation: fadeInUp 1.2s ease-out forwards;
+}
+  
