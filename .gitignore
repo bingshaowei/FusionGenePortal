@@ -1,6 +1,7 @@
 ﻿# --- Codex 工具基础设施（不追踪）---
 .agents/
 .codex/
+./.vscode
 
 # --- Python ---
 __pycache__/
