@@ -11,7 +11,8 @@ dist/
 
 # --- Virtual Environment ---
 venv/
-.env/
+.env
+*.env
 
 # --- 原始数据文件（不追踪）---
 *.csv
@@ -24,9 +25,31 @@ backend/routes/data/r_enrichment_tmp/
 backend/routes/data/r_enrichment_results/
 backend/routes/data/kegg_cache/
 backend/routes/data/precomputed_differential/
+backend/arriba/
+backend/drug_cache/
+backend/uploads/
 
 # --- 数据库 ---
 backend/instance/
+
+# --- 构建产物 ---
+frontend/build/
+
+# --- 可再生的序列数据 ---
+*.fasta
+*.fa
+
+# --- 基因组注释大文件 ---
+backend/tools/*.gtf
+backend/tools/*.gff3
+backend/tools/*.gff
+
+# --- 日志 ---
+*.log
+
+# --- 后端遗留的前端配置 ---
+backend/package.json
+backend/package-lock.json
 
 # --- 前端依赖和缓存 ---
 frontend/node_modules/
